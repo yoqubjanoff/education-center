@@ -1,0 +1,83 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box {
+  width: 446px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  padding: 48px 32px 32px 40px;
+}
+.login-title {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  margin-bottom: 68px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.name-input{
+  width: 382px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+.password-input{
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.input-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px ;
+  width: 382px;
+  border-radius: 8px;
+  background: #fff;
+}
+.kirish-btn {
+  width: 382px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #184afb;
+  color: #fff;
+  border: none;
+  transition: 0.3s ease;
+  cursor: pointer
+}
+.kirish-btn:hover {
+  opacity: 0.8;
+}
+.close-icon {
+  width: 23px;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}

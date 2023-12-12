@@ -1,0 +1,203 @@
+.back-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.addinfo-top-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+.input-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  gap: 24px;
+  width: 443px;
+  background-color: #f5f5f5;
+  padding-left: 24px;
+  border-radius: 12px;
+  margin-bottom: 60px;
+}
+
+.input-name-edu {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  height: 48px;
+}
+.text-area {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  width: 100%;
+  color: #666;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.addinfo-yonalishlar {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+.addinfo__button-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 16px;
+  width: 607px;
+  margin-bottom: 60px;
+}
+.addinfo-inputs-boxs {
+  margin-bottom: 52px;
+}
+.inputstop-boxs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 195px;
+  margin-bottom: 12px;
+}
+.icon-way {
+  width: 52px;
+  height: 52px;
+}
+.way-name {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input-boxs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  row-gap: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 10px 0 10px 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.addinfos-input {
+  outline: none;
+  border: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  columns: #999999;
+}
+.yonalish-btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  gap: 12px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  margin-right: 10px;
+}
+.delet-btn {
+  cursor: pointer;
+  margin-left: 9px;
+}
+.save-ignor-btnbox {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  margin-bottom: 128px;
+}
+.save-and-ignore-btn {
+  width: 328px;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+.save-and-ignore-btn:hover {
+  background-color: #163afa;
+  color: #fff;
+  border: 1px solid transparent;
+  opacity: 0.5;
+}
+.error {
+  position: absolute;
+  top: 100px;
+  color: red;
+}
+.error-text {
+  position: absolute;
+  top: 100px;
+  color: red;
+  display: none;
+}
+.under-line-addinfo {
+  display: inline-block;
+  width: 1360px;
+  height: 1px;
+  margin-top: 12px;
+  background-color: #cccccc;
+  margin-bottom: 20px;
+}
+.pre-input-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.education-img2{
+  width: 24px;
+}
+.y-line {
+  display: inline-block;
+  width: 1px;
+  height: 24px;
+  background: #ccc;
+}
+.phone-placeholder {
+  color: #666;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 9px;
+  border-right: 1px solid #cccccc;
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./assets/fonts/poppins-v20-latin-500.woff2) format("woff"),
+    url(./assets/fonts/poppins-v20-latin-700.woff2) format("woff"),
+    url(./assets/fonts/poppins-v20-latin-regular.woff2) format("woff");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Quicksand", sans-serif, Arial;
+  background-color: #fff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+ol,
+ul,h1,h2,h3,p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
